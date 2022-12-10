@@ -1,5 +1,9 @@
 import input from './template_input.mjs'
 
+const parseInput = (input) => {
+  return 'TODO'
+}
+
 const part1 = () => {
   return 'TODO'
 }
