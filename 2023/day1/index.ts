@@ -1,11 +1,4 @@
 import input from './input'
-// const input = `two1nine
-// eightwothree
-// abcone2threexyz
-// xtwone3four
-// 4nineeightseven2
-// zoneight234
-// 7pqrstsixteen`
 
 const isDigit = (ch: string) => /^\d$/.test(ch)
 
@@ -77,5 +70,5 @@ const part2 = () => {
   return total
 }
 
-// console.log({ part1: part1() })
+console.log({ part1: part1() })
 console.log({ part2: part2() })
